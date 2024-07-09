@@ -36,7 +36,7 @@ public static void  main(String[]args) throws InterruptedException {
 	WebDriverManager.chromedriver().setup();
 	driver=new ChromeDriver();
 	 driver.manage().window().maximize();
- driver.get("http://172.150.0.60:8084/fabnet/UserLogin.do");
+ driver.get("TYPE URL HERE");//FACTORY SIDE LOGIN URL
  Thread.sleep(2000);
  driver.findElement(By.name("username")).click();
  driver.findElement(By.id("Password")).sendKeys("Sanotax@123");
